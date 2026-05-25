@@ -1,0 +1,224 @@
+# ==============================================
+# Environment & Secrets
+# ==============================================
+.env
+.env.local
+.env.*.local
+*.key
+*.pem
+secrets/
+credentials/
+
+# ==============================================
+# Backend (Java/Spring Boot)
+# ==============================================
+target/
+build/
+.gradle/
+*.class
+*.jar
+*.war
+*.ear
+*.log
+*.pid
+*.seed
+*.pid.lock
+
+# IDE & Editor
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+*.iml
+*.iws
+*.ipr
+
+# Maven
+.m2/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+
+# Gradle
+gradle-app.setting
+gradlew.bat
+.gradle
+build/
+
+# Spring Boot
+application.properties.local
+application-local.properties
+application-test.properties
+
+# ==============================================
+# Frontend (Angular/Node)
+# ==============================================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+dist/
+.angular/
+.angular/cache
+out-tsc/
+bazel-out/
+
+# Angular
+/src/environments/environment.*.ts
+!src/environments/environment.prod.ts
+
+# Cypress
+cypress/videos/
+cypress/screenshots/
+cypress/downloads/
+
+# Testing
+coverage/
+.nyc_output/
+karma.conf.js.bak
+
+# ==============================================
+# File Uploads & Temporary Files
+# ==============================================
+temp-uploads/
+tmp/
+temp/
+*.tmp
+*.temp
+uploaded-resumes/
+generated-reports/
+
+# ==============================================
+# OS & Tools
+# ==============================================
+.DS_Store
+Thumbs.db
+*.bak
+*.backup
+*.swp
+*.swo
+*~
+.lock
+.session
+
+# ==============================================
+# Docker
+# ==============================================
+docker-compose.override.yml
+.docker/
+
+# ==============================================
+# CI/CD
+# ==============================================
+.github/workflows/secrets.yml
+.gitlab-ci.local.yml
+.travis.yml.local
+
+# ==============================================
+# Documentation Build
+# ==============================================
+docs/_build/
+site/
+
+# ==============================================
+# Package Manager
+# ==============================================
+package-lock.json
+yarn.lock
+*.lock
+
+# ==============================================
+# Test Artifacts
+# ==============================================
+.test-reports/
+test-results/
+/coverage
+
+# ==============================================
+# IDE Specific
+# ==============================================
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# Visual Studio Code
+.vscode/
+*.code-workspace
+
+# Eclipse
+.classpath
+.project
+.settings/
+.metadata/
+bin/
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# ==============================================
+# OS Files
+# ==============================================
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+desktop.ini
+
+# ==============================================
+# Logs
+# ==============================================
+logs/
+*.log
+log.txt
+
+# ==============================================
+# Generated Files
+# ==============================================
+auto-generated/
+generated/
+*/generated-sources/
+*/generated-test-sources/
+
+# ==============================================
+# Certificates
+# ==============================================
+*.pem
+*.crt
+*.key
+*.p12
+*.pfx
+
+# ==============================================
+# Cache
+# ==============================================
+.cache/
+*.cache
+cache/
+.eslintcache
+
+# ==============================================
+# Backup Files
+# ==============================================
+*.backup
+*.bak
+*.old
+*.orig
+*.save
+
+# ==============================================
+# Project Specific (Add as needed)
+# ==============================================
+# Add any additional files/patterns specific to your project below
